@@ -69,7 +69,6 @@ public class DeviceSettings extends PreferenceFragment implements
     private SecureSettingSwitchPreference mFastcharge;
     private CustomSeekBarPreference mTorchBrightness;
     private Preference mClearSpeakerPref;
-    private Preference mClearSpeakerPref;
     private Preference mAmbientPref;
     private static Context mContext;
     private VibratorStrengthPreference mVibratorStrength;
