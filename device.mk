@@ -184,10 +184,6 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     XiaomiParts
 
-# Prebuilt Packages
-PRODUCT_PACKAGES += \
-    FilesD
-
 # Display/Graphics
 PRODUCT_PACKAGES += \
     android.hardware.graphics.composer@2.4-service \
