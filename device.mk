@@ -199,6 +199,9 @@ PRODUCT_PACKAGES += \
     libvulkan \
     memtrack.sm6150 \
     vendor.qti.hardware.display.allocator-service
+    
+# Firmware
+$(call inherit-product, vendor/xiaomi-firmware/violet/firmware.mk)
 
 # Display interfaces
 PRODUCT_PACKAGES += \
