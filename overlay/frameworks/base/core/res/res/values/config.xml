@@ -90,6 +90,10 @@
     <!-- Maximum number of supported users -->
     <bool name="config_enableMultiUserUI">true</bool>
     <integer name="config_multiuserMaximumUsers">5</integer>
+    
+
+    <!-- Whether safe headphone volume is enabled or not (country specific). -->
+    <bool name="config_safe_media_volume_enabled">false</bool>    
 
     <!-- Set to true if the wifi display supports compositing content stored
          in gralloc protected buffers.  For this to be true, there must exist
